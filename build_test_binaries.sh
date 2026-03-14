@@ -12,7 +12,7 @@ cat <<'EOF' > funciones_RB.c
 
 int main() {
 
-    long long N = 2000000000LL;
+    long long N = 10000000LL;
     volatile long long acc = 0;
 
     printf("Iteraciones: %lld\n", N);
